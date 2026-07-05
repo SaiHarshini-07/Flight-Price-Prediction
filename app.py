@@ -70,7 +70,7 @@ days_left = st.number_input(
 if st.button("Predict Ticket Price"):
 
    
-    input_df = pd.DataFrame(0, index=[0], columns=columns)
+    input_df = pd.DataFrame(0.0, index=[0], columns=columns)
 
   
     input_df.loc[0, "stops"] = stops
