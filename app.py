@@ -74,7 +74,7 @@ if st.button("Predict Ticket Price"):
 
   
     input_df.loc[0, "stops"] = stops
-    input_df.loc[0, "duration"] = duration
+    input_df.loc[0, "duration"] = float(duration)
     input_df.loc[0, "days_left"] = days_left
 
   
